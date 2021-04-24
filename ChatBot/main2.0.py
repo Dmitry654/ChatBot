@@ -5,7 +5,7 @@ from datetime import datetime as date
 from threading import Thread
 from os.path import abspath as tdir
 
-tok = '4009906fb85be4e1dfaf63aaf77d942bf489ea698bd62ff220712bb812d6ea9c9d46a15b26b115ec234ba'
+tok = TOKEN
 vk_session = vk_api.VkApi(token=tok)
 longpoll = VkLongPoll(vk_session)
 
